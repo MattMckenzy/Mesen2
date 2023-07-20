@@ -137,7 +137,7 @@ else
 	LIBEVDEVINC := -I../
 endif
 
-FSLIB := -lstdc++fs
+FSLIB :=
 
 ifeq ($(MESENOS),osx)
 	LIBEVDEVOBJ := 
